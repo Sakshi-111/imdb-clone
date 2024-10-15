@@ -33,7 +33,7 @@ function MovieCard({
           onClick={() => myContext.handleRemoveFromWatchlist(movieObj)}
           className="m-4 flex justify-center h-8 w-8 items-center rounded-lg bg-gray-900/60"
         >
-          &#128525;
+          &#10060;
         </div>
       ) : (
         <div
