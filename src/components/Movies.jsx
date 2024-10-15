@@ -56,7 +56,7 @@ function Movies() {
           
            {movies.map((movieObj)=>{
               return <MovieCard key={movieObj.id} movieObj={movieObj} poster_path={movieObj.poster_path} name={movieObj.
-                original_title}  />
+                title}  />
            })}
        </div>
 
