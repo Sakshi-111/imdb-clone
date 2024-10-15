@@ -31,7 +31,7 @@ function Movies() {
 
 
     useEffect(()=>{
-        axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=3aec63790d50f3b9fc2efb4c15a8cf99&language=en-US&page=${pageNo}`).then(function(res){
+        axios.get(`https://api.themoviedb.org/3/movie/popular?api_key=301656fd57682686fdd37ececa1c6c23&language=en-US&page=${pageNo}`).then(function(res){
             console.log(res.data.results)
             setMovies(res.data.results)
         })
